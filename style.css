@@ -48,5 +48,97 @@ margin-top:34px;
     
 }
 .navbar_button:hover{
-    color: black;
+    color:red;
 }
+.hero_section{
+    background-image: url('B13-A01-Knowledge-Vault/assets/hero-bg.png');
+    width:1233px;
+    height:640px;
+    background-repeat: no-repeat;
+    padding:16px 120px 16px 120px;
+}
+.hero_section h1{
+    text-align: center;
+    font-size: 80px;
+    margin-top:20px;
+    color:white;
+    padding:51px 200px 0px 280px;
+}
+.hero_section h2{
+    text-align: center;
+    font-size: 65px;
+    color:green;
+}
+.hero_section p{
+    color:white;
+    text-align: center;
+    width:1250px;
+    height:50px;
+    margin:10px 0;
+    font-size: 20px;
+}
+
+.H2{
+        text-align: center;
+        font-size: 65px;
+        color:green;
+        /* margin-top:200px; */
+    }
+
+.button_group{
+    display:flex;
+    justify-content: center;
+    gap:12px;
+}
+.button_left{
+    display:flex;
+    
+    color:white;
+    background-color: green;
+    font-size: 16px;
+    align-items: center;
+     width:220px;
+    height:50px;
+}
+.button_right{
+    color:white;
+    background-color:transparent;
+    font-size: 16px;
+    width:190px;
+    height:50px;
+}
+.button_left:hover{
+    color:black;
+}
+.button_right:hover{
+    color:red;
+}
+.icon{
+    margin-left:6px;
+    width:20px;
+    height:20px;    
+}
+.play-icon{
+    color:whitesmoke;
+}
+.text{
+    margin-left:10px;
+    font-weight: 400px;
+    /* border:2px solid red; */
+}
+.notes{
+    text-align: center;
+    width:1369px;
+    height:115px;
+    border:2px solid red;
+    margin:0 60px 20px;
+}
+.badge{
+    background-color: white;
+    color: green;
+    padding:6px 14px;
+    border-radius: 999px;
+    font-size: 16px;
+}
+
+
