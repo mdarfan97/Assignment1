@@ -48,7 +48,7 @@ padding: 12px 16px 12px 16px;
     
 }
 .navbar_button:hover{
-    color:red;
+    color:darkorange;
 }
 .hero_section{
     background-image: url('B13-A01-Knowledge-Vault/assets/hero-bg.png');
@@ -120,11 +120,11 @@ padding: 12px 16px 12px 16px;
 .button_right:hover{
     color:red;
 }
-.icon{
+/* .icon{
     margin-left:6px;
     width:20px;
     height:20px;    
-}
+} */
 
 .play-icon{
     color:whitesmoke;
@@ -324,7 +324,74 @@ box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     text-align: center;
     color:lightslategray;
 }
+.knowledge{
+    display: flex;
+    width:1250px ;
+    height:600px; 
+   
+    margin:120px;
+}
+.knowledge img{
+    /* border:2px solid red; */
+    width:550px;
+    height:550px;
+    margin:0;
+    
+}
+.Brain{
+    
+    margin:102px 0px 30px 60px;
+    width:640px;
+    height:120px;
+    
+    /* border:2px solid red;     */
+}
+.Brain h3{
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-size: 40px;
+    color:black;
+    /* border:2px solid red; */
+    
+}
+.Brain h5{
+    color:green;
+}
+.Brain span{
+    color:lightslategray;
+    
 
-
+}
+.Brain img{  
+   
+    width:20px;
+    height:20px;
+}
+ 
+.item1{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin-top:20px;
+   
+}
+.item2{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    
+}
+.item3{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    
+}
+.item4{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin-top:6px;
+}
 
 
