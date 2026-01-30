@@ -52,6 +52,7 @@ padding: 12px 16px 12px 16px;
 }
 .navbar_button:hover{
     color:black;
+    background-color: red;
 }
 .hero_section{
     background-image: url('B13-A01-Knowledge-Vault/assets/hero-bg.png');
@@ -120,11 +121,13 @@ padding: 12px 16px 12px 16px;
     border-radius: 4px;
 }
 .button_left:hover{
-    color:red;
+    color:black;
+    background-color: white;
 }
 
 .button_right:hover{
-    color:red;
+    color:black;
+    background-color:red;
 }
 /* .icon{
     margin-left:6px;
@@ -440,6 +443,7 @@ box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
 .clear_button:hover{
     color:black;
+    background-color: red;
 }
 .footer_section{
     width:1233px;
